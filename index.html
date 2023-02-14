@@ -11,18 +11,18 @@
     <h1 class="font-bold text-4xl text-center mb-20 mt-8">My Text Editor</h1>
     <div class="bg-blue-300 w-9/12 mx-auto border-2 border-black">
         <div class="flex justify-between p-8 border-b-2 border-black">
-            <div class="flex gap-5">
+            <div class="flex gap-5 flex-col md:flex-row lg:flex-row">
                 <b id="bold" class="cursor-pointer">B</b>
                 <i id="italic" class="cursor-pointer">I</i>
                 <u id="underline" class="cursor-pointer">U</u>
             </div>
-            <div class="flex gap-5">
-                <i id="left" class="cursor-pointer  fa-solid fa-align-left"></i>
-                <i id="center" class="cursor-pointer  fa-solid fa-align-center"></i>
-                <i id="right" class="cursor-pointer  fa-solid fa-align-right"></i>
-                <i id="justify" class="cursor-pointer  fa-solid fa-align-justify"></i>
+            <div class="flex gap-5 flex-col md:flex-row lg:flex-row">
+                <i id="left" class="cursor-pointer fa-solid fa-align-left"></i>
+                <i id="center" class="cursor-pointer fa-solid fa-align-center"></i>
+                <i id="right" class="cursor-pointer fa-solid fa-align-right"></i>
+                <i id="justify" class="cursor-pointer fa-solid fa-align-justify"></i>
             </div>
-            <div class="flex gap-3">
+            <div class="flex gap-3 flex-col md:flex-row lg:flex-row">
                 <input class="w-12 cursor-pointer bg-white border-2 border-black" id="size" type="number" value="18">
                 <span class="cursor-pointer" id="capital">AA</span>
                 <span class="cursor-pointer" id="small">aa</span>
